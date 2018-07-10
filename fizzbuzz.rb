@@ -6,9 +6,11 @@ def fizzbuzz(int)
   #binding.pry
   if int % 15 == 0 # if the number int is divisible by 3
     return "FizzBuzz" # Go fizz
-  else if int % 5 == 0
+  end
+  if int % 5 == 0
     return "Buzz"
-  else if int % 3 == 0
+  end
+  if int % 3 == 0
     return "Fizz"
   end
 end
